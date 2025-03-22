@@ -1,0 +1,111 @@
+
+@import url(ski.jpg);
+    body {
+        font-family: sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-image: url(bg.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .container {
+        display: flex;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .form-container {
+        background: rgba(0, 0, 0, 0.2);
+        padding: 120px;
+        border-radius: 80px;
+        border: 3px solid black;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+        width: 200px;
+        height: 300px;
+        text-align: center;
+        display: block; /* Ensure form is visible */
+    }
+    /*
+ label {
+    display: block;
+    color: white;
+    margin-bottom: 5px;
+    text-align: start;
+    position: relative;
+    }
+    */
+    input[type="text"],
+    input[type="password"],
+    input[type="email"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 2px solid black;
+        border-radius: 10px;
+        box-sizing: border-box;
+        position: relative;
+        bottom: 25px;
+    }
+    /* Product Container Styling */
+    .product-container {
+        text-align: center;
+        margin: 30px auto;
+        max-width: 800px;
+        padding: 20px;
+        background: #f9f9f9;
+        border-radius: 10px;
+    }
+    .products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .product-item {
+        width: 200px;
+        padding: 15px;
+        border-radius: 8px;
+        background: white;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+    .product-image {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: blue;
+        border: none;
+        color: white;
+        font-size: 16px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: darkblue;
+    }
+
+    h2 {
+        color: white;
+    }
+
+    p {
+        color: white;
+        margin-top: 10px;
+    }
+
+    a {
+        color: lightblue;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
